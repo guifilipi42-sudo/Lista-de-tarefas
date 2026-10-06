@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="C:\Users\Aluno\OneDrive\Desktop\lista de tarefas\style.css">
+</head>
+<body>
+    <main class="aplicacao">
+        <h1>Lista de Tarefas</h1>
+        <p class="subtitulo">Organize as tarefas que você precisa realizar.</p>
+
+        <div class="formulario">
+            <label for="campo-tarefa">Nova tarefa</label>
+
+            <div class="entrada">
+                <input
+                    type="text"
+                    id="campo-tarefa"
+                    placeholder="Digite uma tarefa"
+                    maxlength="100"
+                    autocomplete="off"
+                >
+                <button type="button" id="botao-adicionar">
+                    Adicionar
+                </button>
+            </div>
+
+            <p id="mensagem-erro" class="mensagem-erro"></p>
+        </div>
+
+        <ul id="lista-tarefas" aria-label="Tarefas cadastradas"></ul>
+
+        <p id="lista-vazia" class="lista-vazia">
+            Nenhuma tarefa cadastrada.
+        </p>
+    </main>
+
+    <script src="C:\Users\Aluno\OneDrive\Desktop\lista de tarefas\script.js"></script>
+</body>
+</html>
